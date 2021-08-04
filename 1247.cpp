@@ -22,12 +22,14 @@ int main() {
     float d_fugitivo_guarda, v_fugitivo, v_guarda;
     float d_fugitivo = 12.0;
     
-	while (cin>>d_fugitivo_guarda>>v_fugitivo>>v_guarda) {
+    bool continua = cin>>d_fugitivo_guarda>>v_fugitivo>>v_guarda;
+	while (continua) {
 		
 		//hipotenusa = soma do quadrado dos catetos	
 		//pow(m,n) = m elevado a potência n.  pow = power
 		//sqrt(m) = raiz quadrada de m.  sqrt = square
     	float d_guarda = sqrt(pow(d_fugitivo_guarda,2) + pow(d_fugitivo,2));
+
     	
 		//tempo = distância / velocidade
     	float t_guarda = d_guarda/v_guarda;
@@ -38,5 +40,6 @@ int main() {
     	} else {
             cout<<"N"<<endl;
     	}
+    	continua = cin>>d_fugitivo_guarda>>v_fugitivo>>v_guarda;
 	}
 }

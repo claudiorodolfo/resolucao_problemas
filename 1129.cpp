@@ -26,6 +26,11 @@ int main() {
 	while (numero_questoes != 0) {
 		for (int i = 0; i < numero_questoes; i++) {
 			cin>>a>>b>>c>>d>>e;
+			//if (a <= 127) {
+			//	a = 1;
+			//} else {
+			//	a = 0;
+			//}
 			a = (a <= 127) ? 1 : 0;
 			b = (b <= 127) ? 1 : 0;
 			c = (c <= 127) ? 1 : 0;	
