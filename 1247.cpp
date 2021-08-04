@@ -25,9 +25,11 @@ int main() {
 	while (cin>>d_fugitivo_guarda>>v_fugitivo>>v_guarda) {
 		
 		//hipotenusa = soma do quadrado dos catetos	
+		//pow(m,n) = m elevado a potência n.  pow = power
+		//sqrt(m) = raiz quadrada de m.  sqrt = square
     	float d_guarda = sqrt(pow(d_fugitivo_guarda,2) + pow(d_fugitivo,2));
     	
-		//tempo = distancia / velocidade
+		//tempo = distância / velocidade
     	float t_guarda = d_guarda/v_guarda;
     	float t_fugitivo = d_fugitivo/v_fugitivo;
     
