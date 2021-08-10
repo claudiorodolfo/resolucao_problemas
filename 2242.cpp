@@ -1,4 +1,4 @@
-//Problema 2242 -Huaauhahhuahau
+//Problema 2242 - Huaauhahhuahau
 //https://www.urionlinejudge.com.br/judge/pt/problems/view/2242
 /*
 Em chats, é muito comum entre jovens e adolescentes utilizar sequências de letras, que parecem muitas vezes aleatórias, para representar risadas. Alguns exemplos comuns são:
