@@ -40,7 +40,9 @@ int main() {
 
 	while (valor >= 100*100) {
 		valor -= 100*100;
+	//	valor = valor - 100*100;
 		cedulas_100 += 1;
+	//	cedulas_100 = cedulas_100 + 1;
 	}
 	
 	while (valor >= 50*100) {
