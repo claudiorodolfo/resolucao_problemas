@@ -20,7 +20,7 @@ using namespace std;
 int main() {
 
     float d_fugitivo_guarda, v_fugitivo, v_guarda;
-    float d_fugitivo = 12.0;
+    const float d_fugitivo = 12.0;
     
     bool continua = cin>>d_fugitivo_guarda>>v_fugitivo>>v_guarda;
 	while (continua) {
